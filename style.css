@@ -7,4 +7,11 @@ Template:       thestory
 
 @import url("../thestory/style.css");
 
+/* jokers */
+.list-inline { margin: 0px; padding: 0; list-style: none; }
+.list-inline li { display: inline-block; margin-right: 10px; }
 
+/* collective single template */
+.collective-card-space { margin-top: 14px; }
+.collective-card-subtit { font-size: 1em !important; padding: 0; }
+.collective-card p { margin: 0 0 7px 0; }
