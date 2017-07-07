@@ -94,7 +94,7 @@ foreach ( $fields as $k => $f ) {
 $f_geo_out = ( is_array($f_geo) ) ? '<div class="collective-geo">'.implode(', ',$f_geo).'</div>' : '';
 $f_social_out = ( is_array($f_social) ) ? '<ul class="collective-social list-inline">'.implode('',$f_social).'</ul>' : '';
 $f_unique_out = ( is_array($f_unique) ) ? implode('',$f_unique) : '';
-if ( $f_geo_ou != '' || $f_social_out != '' ) {
+if ( $f_geo_out != '' || $f_social_out != '' ) {
 	echo '<div id="sidebar" class="sidebar"><aside class="sidebar-box collective-card">
 		<h4 class="collective-card-tit">'.sprintf(__('About %s'),get_the_title() ).'</h4>'
 		.$f_geo_out
